@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Hide YouTube Sign Out",
+  "version": "1.0",
+  "description": "Automatically hides the Sign Out button on YouTube.",
+  "permissions": ["tabs", "webNavigation", "https://www.youtube.com/*"],
+  "background": {
+      "scripts": ["background.js"]
+  },
+  "content_scripts": [
+      {
+          "matches": ["*://*.youtube.com/*"],
+          "js": ["content.js"],
+          "run_at": "document_end"
+      }
+  ],
+  "icons": {
+      "96": "icon96.png"
+  }
+}
