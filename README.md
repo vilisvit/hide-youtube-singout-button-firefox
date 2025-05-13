@@ -1,21 +1,14 @@
-# Hide YouTube Sign Out Extension
+# 🛡️ Hide YouTube Sign Out Button
 
-A lightweight Firefox extension that automatically hides the "Sign Out" button on YouTube to help avoid accidental logouts and keep your session active.
+A lightweight Firefox extension that **hides the "Sign Out" button on YouTube** — perfect if you often switch accounts and are tired of accidentally clicking "Sign Out" when you meant to switch or access settings.
 
-## ✨ Features
-- Hides the YouTube "Sign Out" button on all pages
-- Lightweight and efficient (no storage, no background resource usage)
-- Simple codebase with clean separation of background and content scripts
+🔗 **Get it on Firefox Add-ons:**  
+👉 [addons.mozilla.org/uk/firefox/addon/hide-youtube-sign-out-button](https://addons.mozilla.org/uk/firefox/addon/hide-youtube-sign-out-button/)
 
-## 📦 Installation
-1. Download the extension as a ZIP or clone this repository.
-2. Open Firefox and navigate to `about:debugging`.
-3. Click **This Firefox** → **Load Temporary Add-on...**.
-4. Select the `manifest.json` file from the project directory.
+---
 
-## 📚 Usage
-Once loaded, the extension will automatically hide the "Sign Out" button when visiting YouTube.  
-No additional configuration is required.
+## 📦 Install Manually
 
-## 📄 License
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
+1. Download or clone this repo  
+2. Go to `about:debugging` → **This Firefox** → **Load Temporary Add-on...**  
+3. Select `manifest.json`
